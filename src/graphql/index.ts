@@ -53,93 +53,6 @@ export const getProjects = async () => {
 
 };
 
-// export const getTags = async () => {
-//     const query = gql`
-//         query Categories {
-//             categories_Connection {
-//                 edges {
-//                     cursor
-//                     node {
-//                         id
-//                         name
-//                         description
-//                     }
-//                 }
-//             }
-//         }
-//     `;
-
-//     const result: any = await request(graphqlAPI, query);
-//     return result.categoriesConnection.edges;
-// };
-
-// export const getBlogs = async () => {
-//     const query = gql`
-//         query Blogs {
-//             blogs_Connection {
-//                 edges {
-//                     cursor
-//                     node {
-//                         id
-//                         slug
-//                         title
-//                         views
-//                         createdAt
-//                         publishedAt
-//                         description
-//                         content {
-//                             raw
-//                             html
-//                             markdown
-//                         }
-//                         categories {
-//                             id
-//                             name
-//                             slug
-//                         }
-//                         featuredImage {
-//                             url
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//     `;
-
-//     const result: any = await request(graphqlAPI, query);
-//     return result.blogsConnection.edges;
-// };
-
-// export const getBlogDetails = async (slug: string) => {
-//     const query = gql`
-//         query BlogDetails($slug: String!) {
-//             blog(where: { slug: $slug }) {
-//                 id
-//                 title
-//                 views
-//                 createdAt
-//                 publishedAt
-//                 description
-//                 content {
-//                     raw
-//                     html
-//                     markdown
-//                 }
-//                 categories {
-//                     id
-//                     name
-//                     slug
-//                 }
-//                 featuredImage {
-//                     url
-//                 }
-//             }
-//         }
-//     `;
-
-//     const result: any = await request(graphqlAPI, query, { slug });
-//     return result.blog;
-// };
 
 export const getClient = async (object: ClientProps) => {
     const result = await fetch('/api/contact', {
@@ -156,7 +69,6 @@ export const getClient = async (object: ClientProps) => {
     // return result;
 };
 
-// export const getReviewsData = async () => {
 //     const query = gql`
 //         query Reviews {
 //             reviewsConnection {
