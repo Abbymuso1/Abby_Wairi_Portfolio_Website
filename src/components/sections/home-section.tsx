@@ -5,7 +5,7 @@ import AboutMe from "../contents/about-me";
 import Projects from "../contents/projects";
 import Experience from "../contents/experience";
 import MySkills from "../contents/my-skills";
-import Contact from "../contents/contact";
+
 
 const HomeSection = () => {
     return (
@@ -25,9 +25,7 @@ const HomeSection = () => {
             <Wrapper>
                 <MySkills />
             </Wrapper>
-            <Wrapper>
-                <Contact />
-            </Wrapper>
+         
         </div>
     )
 };

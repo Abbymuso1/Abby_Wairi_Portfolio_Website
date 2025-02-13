@@ -54,20 +54,6 @@ export const getProjects = async () => {
 };
 
 
-export const getClient = async (object: ClientProps) => {
-    const result = await fetch('/api/contact', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(object),
-    });
-
-    return result;
-    // const result = await axios.post('/api/contact', object);
-
-    // return result;
-};
 
 //     const query = gql`
 //         query Reviews {
