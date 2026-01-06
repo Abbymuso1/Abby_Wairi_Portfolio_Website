@@ -17,7 +17,7 @@ const Hero = () => {
             >
                 <div className="size-32 rounded-full bg-[#050505] mx-auto overflow-hidden group border-2 border-transparent hover:border-border transition-all duration-300">
                     <Image
-                        src="/images/me.jpeg"
+                        src="/images/me2.jpeg"
                         alt="hero"
                         width={1024}
                         height={1024}
@@ -116,7 +116,7 @@ const Hero = () => {
                 className="relative mt-6 flex flex-col items-center justify-center gap-y-6 max-w-3xl mx-auto text-center"
             >
                 <p className="text-base text-muted-foreground !leading-relaxed">
-                Junior Software Developer passionate about designing and implementing intuitive digital solutions.
+                    Software Developer passionate about designing and implementing intuitive digital solutions.
                     {/* I&apos;m a software developer and designer who specializes in creating innovative and user-friendly websites. <span className="hidden lg:inline-block">With a keen eye for design and a focus on performance,</span> I&apos;m dedicated to delivering high-quality digital experiences that drive business growth. */}
                 </p>
             </AnimationContainer>

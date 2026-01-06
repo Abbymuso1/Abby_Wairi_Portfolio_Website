@@ -1,23 +1,19 @@
 export const SKILLS = [
     {
-        title: 'Languages',
-        stack: ["HTML", "CSS", "Python", "TypeScript", "JavaScript", "Java", "PHP"],
+        title: 'Programming',
+        stack: ["Python", "TypeScript", "JavaScript", "Java", "PHP", "Data Structures & Algorithms", "SQL and Database Management"],
     },
     {
-        title: "Frontend Frameworks",
-        stack: ["React", "Next.js", "Laravel", "Yii2 framework", "Bootstrap"],
+        title: "Software Engineering",
+        stack: ["React", "Next.js", "NodeJS", "Laravel", "Rest APIs", "Git","Yii2 framework", "Bootstrap"],
     },
     {
-        title: "Javascript Libraries",
-        stack: ["React Query", "Emotion", "Axios"]
+        title: "Intelligent Systems & AI Exposure",
+        stack: ["NetGuardians", "NLP", "Machine Learning"]
     },
     {
         title: "CSS Styling & Motion Libraries",
         stack: ["Tailwind CSS", "Framer Motion", "Styled Components", "Chakra UI", "GSAP", "Material UI", "Shadcn UI", "Next UI", "Bootstrap"],
-    },
-    {
-        title: "Backend Technologies",
-        stack: ["Node.js", "MySQL", "Flask", "Prisma", "GraphQL", "NLP"],
     },
     {
         title: "Databases",

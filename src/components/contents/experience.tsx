@@ -4,14 +4,28 @@ const Experience = () => {
     return (
         <div className="w-full relative pt-10 pb-20">
             <TimeLine>
-            <TimeLineItem active>
+                <TimeLineItem active>
+                    <TimeLineItem.Title>
+                        <span className="font-medium transition-all hover:text-white hover:underline hover:underline-offset-2">
+                            Software Developer & Consultant at NewTech Global
+                        </span>
+                        {" "}•{" "}
+                        <span className="text-neutral-200">
+                            Apr 2025 - Present
+                        </span>
+                    </TimeLineItem.Title>
+                    <TimeLineItem.Description>
+                        Consultant and Software Developer delivering creative, business-driven software solutions for internal enterprise platforms while supporting client-facing fintech implementations using NetGuardians technologies.
+                    </TimeLineItem.Description>
+                </TimeLineItem>
+                <TimeLineItem active>
                     <TimeLineItem.Title>
                         <span className="font-medium transition-all hover:text-white hover:underline hover:underline-offset-2">
                             Software Developer Intern and UI/UX Designer at Iansoft Technologies
                         </span>
                         {" "}•{" "}
                         <span className="text-neutral-200">
-                            Jan 2025 - Present
+                            Jan 2025 - Apr 2025
                         </span>
                     </TimeLineItem.Title>
                     <TimeLineItem.Description>
@@ -49,7 +63,7 @@ const Experience = () => {
                     </TimeLineItem.Description>
                 </TimeLineItem>
 
-                <TimeLineItem active>
+                <TimeLineItem last>
                     <TimeLineItem.Title>
                         <span className="font-medium transition-all hover:text-white hover:underline hover:underline-offset-2">
                             Software Engineer Intern at United Bank for Africa
@@ -63,8 +77,8 @@ const Experience = () => {
                         Contributed to software development initiatives within the company by providing valuable support and assistance in various aspects of the development process.
                     </TimeLineItem.Description>
                 </TimeLineItem>
-                
-                <TimeLineItem last>
+
+                {/* <TimeLineItem last>
                     <TimeLineItem.Title>
                         <span className="font-medium transition-all hover:text-white hover:underline hover:underline-offset-2">
                             Innovatibve Hub Intern at United Bank for Africa
@@ -77,7 +91,7 @@ const Experience = () => {
                     <TimeLineItem.Description>
                         Contributed to software development initiatives within the company by providing valuable support and assistance in various aspects of the development process.
                     </TimeLineItem.Description>
-                </TimeLineItem>
+                </TimeLineItem> */}
             </TimeLine>
         </div>
     );

@@ -28,7 +28,7 @@ const DATA = {
 
             resume: {
                 name: "Resume",
-                url: "/Abigail_Muthoni_Resume.pdf",
+                url: "/Abigail_Wairi_Resume.pdf",
                 icon: FileTextIcon,
             },
             coffe: {
