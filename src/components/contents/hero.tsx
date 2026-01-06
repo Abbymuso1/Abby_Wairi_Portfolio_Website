@@ -17,7 +17,7 @@ const Hero = () => {
             >
                 <div className="size-32 rounded-full bg-[#050505] mx-auto overflow-hidden group border-2 border-transparent hover:border-border transition-all duration-300">
                     <Image
-                        src="/images/me2.jpeg"
+                        src="/images/me.jpeg"
                         alt="hero"
                         width={1024}
                         height={1024}
