@@ -19,13 +19,14 @@ const AboutMe = () => {
             >
                 <div className="w-full flex items-center justify-center">
                     <p className="text-base md:text-lg text-justify w-full">
-                        Computer Science graduate with First Class Honors and hands-on
-                        experience in software engineering, enterprise systems, and data-driven
-                        decision-support platforms. Strong foundation in programming and
-                        software design, with exposure to intelligent systems, fraud monitoring
-                        workflows, and AI-assisted applications. Experienced in collaborative,
-                        international environments and motivated to build scalable, impactful
-                        technology.
+                        Software Developer and Junior Consultant with an interest in building intuitive and
+                        reliable digital systems. I have hands-on experience contributing to enterprise
+                        platforms in active use, supporting UI/UX design, frontend development, and system
+                        integration. I have worked in collaborative, multicultural environments, gaining
+                        exposure to core and digital banking systems and fraud monitoring workflows. I bring
+                        a global perspective to my work and am motivated to continue developing my
+                        technical and analytical skills while contributing thoughtfully to real-world and
+                        research-driven technology solutions
                     </p>
                 </div>
             </AnimationContainer>
