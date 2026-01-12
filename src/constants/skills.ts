@@ -25,6 +25,6 @@ export const SKILLS = [
     },
     {
         title: "Currently Learning & Exploring",
-        stack: ["Smart Wallets", "OpenAI", "Microsoft365 Dynamics", "Blockchain", "NFT Minting"]
+        stack: ["NetGuardians", "OpenAI", "Microsoft365 Dynamics", "Blockchain"]
     }
 ];
